@@ -1,0 +1,599 @@
+.crypto-land-app {
+    background-color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    background-color: #003FDB;
+    height: 1000px;
+    align-items: center;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 51px;
+    color: white;
+}
+
+.navbar-right-container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.navbar-left-container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.navbar-left-container button {
+    width: 174px;
+    height: 60px;
+    border-radius: 100px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    color: #000;
+    background: #A3DC2F;
+}
+
+.App-logo {
+    padding: 0px 100px;
+}
+
+.text-box {
+    width: 1088px;
+    /* height: 452px; */
+    padding-top: 173px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 100px;
+    color: white;
+    text-align: center;
+}
+
+.text-box-heading {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+.text-box-subtext {
+    padding: 20px 220px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.text-box-input {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    background-color: white;
+    width: 600px;
+    border: none;
+    border-radius: 100px;
+    border: none;
+}
+
+.text-box-input input {
+    border: none;
+    width: 200px;
+
+}
+
+.text-box input::placeholder {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.text-box-input button {
+    width: 100px;
+    height: 40px;
+    border-radius: 100px;
+    background: #A3DC2F;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+}
+
+.dashboard-logo {
+    width: 1300px;
+    padding: 69px 100px 0px 100px;
+}
+
+.logofolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 212px;
+}
+
+.partner-text-box {
+    width: 955px;
+    padding: 0px 291px 54px 270px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: center;
+}
+
+.logo-component {
+    width: 1500px;
+    height: 100px;
+    padding: 10px;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-component>img {
+    width: 150px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.expense-feature {
+    padding-top: 163px;
+}
+
+.expense-feature-text-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 750;
+    line-height: 70px;
+    text-align: center;
+
+}
+
+.total-expense {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 188px 80px 100px 143px;
+}
+
+.total-expense-image {
+    width: 500px;
+}
+
+.total-expense-text-box {
+    width: 600px;
+    border-radius: 100px;
+    padding-left: 201px;
+}
+
+.total-expense-heading {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: left;
+}
+
+.total-expense-subtext {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    border-radius: 100px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: center;
+    background: #A3DC2F;
+    border: none;
+}
+
+.account-feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 188px 160px 143px;
+}
+
+.account-text-box {
+
+    display: flex;
+    align-items: center;
+}
+
+.account-heading {
+    width: 500px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: left;
+}
+
+.account-subtext {
+    width: 562px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+}
+
+.account-image {
+    width: 500px;
+    padding-left: 200px;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 100px 140px 100px 140px;
+    gap: 10px; */
+}
+
+.profile-text-box {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.profile-heading {
+    width: 819px;
+    height: 180px;
+    color: white;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 80px;
+    text-align: center;
+}
+
+.profile-subtext {
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    padding: 25px 43px 59px 43px;
+}
+
+.profile-image-container {
+    display: flex;
+    gap: 39px;
+    align-items: center;
+    padding: 0px 140px 100px;
+    border-radius: 20px;
+}
+
+.profile-image {
+    width: 300px;
+    height: 400px;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F2F4F5;
+}
+
+.plan-text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan-heading {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 87.14px;
+    letter-spacing: -0.025em;
+    text-align: center;
+
+}
+
+.plan-subtext {
+    padding-top: 27px;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.feature-btn {
+    width: 200px;
+    height: 60px;
+    border-radius: 100px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: center;
+    background: white;
+    border: 1px solid black;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.feature-btn.last {
+    width: 200px;
+    height: 60px;
+    border-radius: 100px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: center;
+    background: #A3DC2F;
+    border: none;
+}
+
+.plan-details {
+    display: flex;
+    gap: 50px;
+    padding-top: 50px;
+
+}
+
+.plan-details-card {
+    display: flex;
+    padding: 44px 41px;
+    width: 300px;
+    gap: 20px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 31px;
+}
+
+.plan-type {
+    display: flex;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36.31px;
+    text-align: left;
+}
+
+.plan-price {
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72.61px;
+    text-align: left;
+
+}
+
+.plan-description {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.025em;
+    color: #65676C;
+}
+
+.plan-feature-base {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 35px;
+}
+
+.plan-feature {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    color: #65676C;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F2F4F5;
+    padding: 102px 140px;
+}
+
+.testimonial-text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial-text-heading {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 87.14px;
+    letter-spacing: -0.025em;
+    text-align: center;
+}
+
+.testimonial-text-subtext {
+    padding-top: 30px;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.testimonial-image-grid {
+    gap: 20px;
+    padding: 46px;
+
+}
+
+.customer-review {
+    color: #707070;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding: 46px;
+    justify-content: center;
+}
+
+.customer-review-content {
+    background-color: white;
+    border-radius: 16px;
+}
+
+.review-text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 31px 0px 48px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+.customer-details {
+    display: flex;
+    padding: 77px 31px 0px;
+    gap: 10px;
+    align-items: center;
+}
+
+.customer-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.demo-container {
+    padding: 150px 140px;
+    border-radius: 40px;
+}
+
+.demo-blue-container {
+    background-color: #003FDB;
+    align-items: center;
+    border-radius: 40px;
+    display: flex;
+}
+
+.demo-text-box {
+    padding: 120px 79px 119px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    color: white;
+}
+
+.demo-image {
+    padding: 19px;
+}
+
+.demo-button {
+    display: flex;
+    align-items: center;
+    padding-top: 43px;
+    gap: 22px;
+}
+
+.demo-video-btn {
+    width: 200px;
+    height: 60px;
+    border-radius: 100px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: center;
+    border: none;
+    background: white;
+}
+
+.footer-container {
+    background-color: black;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px 90px;
+}
+
+.footer-logo-text {
+    padding-top: 40px;
+    width: 250px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+.footer-social-image {
+    padding-top: 40px;
+}
+
+.footer-head {
+    padding-top: 150px;
+    padding-left: 112px;
+
+}
+
+.footer {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.025em;
+    text-align: left;
+}
+
+.footer-heading {
+    padding-bottom: 40px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+}
+
+.footer-line-image {
+    border: 1px solid #FFFFFF;
+}
+
+.footer-cookies {
+    display: flex;
+    justify-content: center;
+    padding: 29px 0px;
+    color: #BCBCBC;
+}

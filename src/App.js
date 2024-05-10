@@ -1,22 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+
+import CryptoPage from "./Page/CryptoPage/CryptoPage";
+import NewsifyPage from "./Page/NewsifyPage/NewsifyPage";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
+        <Routes>
+          <Route path="/" element={<NewsifyPage />} />
+          <Route path="/crypto-land" element={<CryptoPage />} />
+          {/* <Route path="/" element={<HomePage />} /> */}
+        </Routes>
+
+
       </header>
     </div>
   );
