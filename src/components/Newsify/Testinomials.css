@@ -1,0 +1,96 @@
+.newsify-testimonials {
+
+    padding: 160px 181px 160px;
+}
+
+.newsify-testimonial-arrow {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+
+.newsify-testimonials-text-box {
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.newsify-testimonials-text-heading {
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.newsify-testimonials-text-heading span {
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #1668E8;
+}
+
+.newsify-testimonials-text-subtext {
+    padding-top: 24px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.025em;
+    text-align: left;
+    color: #65676C;
+}
+
+.carose {
+    position: absolute;
+    right: 0;
+}
+
+.newsify-review-card {
+    background: #1E1F20;
+    position: relative;
+    padding: 81px 296px 0px 71px;
+    border-radius: 40px;
+}
+
+.waves {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.comma {
+    position: absolute;
+    right: 35px;
+    bottom: 94px;
+}
+
+.newsify-review-text {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 65px;
+    text-align: left;
+    color: white;
+}
+
+.newsify-review-profile {
+    padding: 114px 71px 81px 0px;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.profile-name {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+

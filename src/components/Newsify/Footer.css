@@ -1,0 +1,89 @@
+.newsify-footer {
+    padding: 160px 160px 25px;
+    background-color: #1668E8;
+}
+
+.newsify-company-Info {
+    display: flex;
+    gap: 100px;
+    padding-bottom: 179px; 
+    color: white;
+}
+
+.newsify-company-logo-details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.newsify-company-logo {
+    font-family: Inter;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 53.25px;
+}
+
+.newsify-company-logo-text {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.025em;
+    text-align: left;
+    text-wrap: nowrap;
+}
+
+.try-btn {
+    padding: 12px 35px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    border: none;
+    border-radius: 31px;
+}
+
+.company-services-info {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+
+.company-info-title {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    text-wrap: nowrap;
+}
+
+.company-info-subtext {
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    text-align: left;
+    text-wrap: nowrap;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #F4E9E9;
+}
+
+.footer-bottom-text {
+    padding-top: 29px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0.025em;
+    text-align: left;
+    color: #F4E9E9;
+}
